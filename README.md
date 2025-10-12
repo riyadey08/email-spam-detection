@@ -144,4 +144,4 @@ Riya Dey  
 National Institute of Technology Durgapur  
 
 📧 [Email](mailto:riyadey3134@gmail.com)  
-🌐 [LinkedIn](https:https://www.linkedin.com/in/riya-dey-a31b43286)
+🌐 [LinkedIn](https://www.linkedin.com/in/riya-dey-a31b43286)
