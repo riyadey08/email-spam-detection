@@ -140,8 +140,8 @@ To avoid this, use level-3 headings (###) instead of numbered lists for clean re
 ---
 
 ## 👩‍💻 Author
-Riya Dey  
-National Institute of Technology Durgapur  
+**Riya Dey**  
+*National Institute of Technology Durgapur*  
 
 📧 [Email](mailto:riyadey3134@gmail.com)  
 🌐 [LinkedIn](https://www.linkedin.com/in/riya-dey-a31b43286)
