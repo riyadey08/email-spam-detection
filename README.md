@@ -64,10 +64,10 @@ The project demonstrates preprocessing, model training, evaluation, and performa
 
 | Category | Model | Description | Accuracy |
 |-----------|--------|-------------|-----------|
-| **Traditional ML** | Logistic Regression, SVM, Naive Bayes | TF-IDF vectorized classification | ~95% |
+| **Traditional ML** | Logistic Regression, SVM, Naive Bayes | TF-IDF vectorized classification | ~98% |
 | **Ensemble ML** | LightGBM | Gradient boosting with TF-IDF features | ~97% |
 | **Deep Learning (NN)** | Dense + Dropout layers | Multi-layer neural architecture | ~96% |
-| **Sequential (LSTM)** | Long Short-Term Memory | Context-aware sequential modeling | ~98% |
+| **Sequential (LSTM)** | Long Short-Term Memory | Context-aware sequential modeling | ~86% |
 
 ---
 
@@ -127,7 +127,7 @@ To avoid this, use level-3 headings (###) instead of numbered lists for clean re
 - Traditional ML models deliver strong baselines for structured datasets.  
 - LightGBM achieves high accuracy with low training time.  
 - Neural Networks provide better generalization on unseen data.  
-- LSTM achieves the best overall performance (~98% accuracy).  
+- SVM achieves the best overall performance (~98% accuracy).  
 
 ---
 
