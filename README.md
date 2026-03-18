@@ -19,6 +19,7 @@ The project demonstrates preprocessing, model training, evaluation, and performa
 
 ##  Repository Structure
 
+```
 email-spam-detection/
 │
 ├── dataset/
@@ -29,7 +30,7 @@ email-spam-detection/
 │
 ├── README.md
 └── requirements.txt
-
+```
 
 
 ---
