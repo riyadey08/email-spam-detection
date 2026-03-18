@@ -131,8 +131,8 @@ Open and execute any .ipynb file (e.g., LSTM, LGBM, NN, or ML models) to train a
 ##  Limitations
 - The model may not perform well on real-world email data as it is trained on specific dataset.
 - The model mainly focuses on textual content and may fail to detect spam in: Images, Attachments, Embedded links.  
-- Neural Networks provide better generalization on unseen data.  
-- SVM achieves the best overall performance (~98% accuracy).  
+- May genarate False predictions(False Positive, False Negative).  
+- Trained only on English data, the model may struggle with Multilingual emails or Regional slang or mixed languages.
 
 ---
 
@@ -140,7 +140,8 @@ Open and execute any .ipynb file (e.g., LSTM, LGBM, NN, or ML models) to train a
 - Integrate transformer-based architectures (BERT, RoBERTa)  
 - Deploy using Flask or Streamlit for real-time detection  
 - Extend to multilingual and phishing URL detection  
-- Add explainability via LIME or SHAP  
+- Add explainability via LIME or SHAP
+- Add image-based spam detection, and continuous learning systems  
 
 ---
 
