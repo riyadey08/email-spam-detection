@@ -20,12 +20,12 @@ The project demonstrates preprocessing, model training, evaluation, and performa
 ##  Repository Structure
 
 ```
-email-spam-detection/
+email-spam-detection
 │
-├── dataset/
+├── dataset
 │   └── spam.csv
 │
-├── notebooks/
+├── notebooks
 │   └── spam_detection.ipynb
 │
 ├── README.md
