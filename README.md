@@ -19,31 +19,16 @@ The project demonstrates preprocessing, model training, evaluation, and performa
 
 ##  Repository Structure
 
- Email_spam_and_phishing-main
+email-spam-detection/
 │
-├──  NN/
-│   ├──  Spam detection Neural networks.ipynb     # Dense & CNN-based model
-│   └──  dataset/                                 # Dataset used by NN model
+├── dataset/
+│   └── spam.csv
 │
-├──  spam_LGBM/
-│   ├──  Spam_LGBM.ipynb                          # LightGBM-based classifier
-│   └──  spam.csv                                 # Dataset for LGBM model
+├── notebooks/
+│   └── spam_detection.ipynb
 │
-├──  Spam-Classifier-master ksd/
-│   └──  Spam-Classifier-master/
-│       ├──  Spam_Classifier_with_LSTM.ipynb      # LSTM implementation
-│       ├──  sms_using_lemmatizer_with_TFIdf_Vectorizer.ipynb
-│       ├──  sms_using_PorterStemmer_with_TFIdf_Vectorizer.ipynb
-│       ├──  spam.csv                             # Dataset for experiments
-│       ├──  workflow.gif                         # Workflow visualization
-│       ├──  images/                              # Supporting visuals
-│       ├──  LICENSE
-│       └──  README.md
-│
-├──  Spam_detection.ipynb                         # Traditional ML models
-├──  spamCollection.csv                           # SMS spam dataset
-├──  spam.csv                                     # Secondary dataset
-└──  README.md                                    # Main project documentation
+├── README.md
+└── requirements.txt
 
 
 
