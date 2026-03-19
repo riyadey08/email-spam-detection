@@ -114,6 +114,16 @@ Open and execute any .ipynb file (e.g., LSTM, LGBM, NN, or ML models) to train a
 ---
 
 
+##   Screenshots
+
+
+![Predictions](images/graphofdata.png)
+![Accuracy](images/accuracy.png)
+
+
+---
+
+
 ##  Limitations
 - The model may not perform well on real-world email data as it is trained on specific dataset.
 - The model mainly focuses on textual content and may fail to detect spam in: Images, Attachments, Embedded links.  
