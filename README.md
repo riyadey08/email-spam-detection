@@ -117,8 +117,8 @@ Open and execute any .ipynb file (e.g., LSTM, LGBM, NN, or ML models) to train a
 ##   Screenshots
 
 
-![Predictions](images/graphofdata.png)
-![Accuracy](images/accuracy.png)
+![Predictions](images./graphofdata.png)
+![Accuracy](images./accuracy.png)
 
 
 ---
