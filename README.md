@@ -128,8 +128,8 @@ Open and execute any .ipynb file (e.g., LSTM, LGBM, NN, or ML models) to train a
 ##  Limitations
 - The model may not perform well on real-world email data as it is trained on specific dataset.
 - The model mainly focuses on textual content and may fail to detect spam in: Images, Attachments, Embedded links.  
-- May genarate False predictions(False Positive, False Negative).  
-- Trained only on English data, the model may struggle with Multilingual emails or Regional slang or mixed languages.
+- The model predicts individual gestures but does not understand words, sentences, or context in sign language. 
+- The system may experience latency or reduced performance on low-end devices during real-time detection.
 
 ---
 
