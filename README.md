@@ -106,7 +106,8 @@ Open and execute any .ipynb file (e.g., LSTM, LGBM, NN, or ML models) to train a
 
 
 ##  Results Summary
-- Traditional ML models deliver strong baselines for structured datasets.  
+- Traditional ML models deliver strong baselines for structured datasets.
+- The high accuracy achieved by the traditional ML than DL because of the small dataset size.
 - LightGBM achieves high accuracy with low training time.  
 - Neural Networks provide better generalization on unseen data.  
 - SVM achieves the best overall performance (~98% accuracy).  
