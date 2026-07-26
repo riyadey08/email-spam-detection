@@ -5,7 +5,6 @@
 ![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange?logo=jupyter)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-yellow?logo=scikitlearn)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
@@ -35,13 +34,52 @@ email-spam-detection
 
 ---
 
+##  Workflow
+
+```
+spam.csv
+      ↓
+Data Cleaning
+      ↓
+Text Preprocessing
+      ↓
+TF-IDF Vectorization
+      ↓
+Train-Test Split
+      ↓
+Train ML/DL Models
+      ↓
+Evaluation
+      ↓
+Model Comparison
+```
+
+---
+
 ##  Key Features
 - Complete **end-to-end pipeline** for spam and phishing detection  
 - Combines **traditional ML** and **deep learning** techniques  
-- Text cleaning, tokenization, stemming, and lemmatization  
+- Text cleaning, tokenization, stemming, and lemmatization
+- Hyperparameter tuning using **GridSearchCV** to optimize model performance
 - Model comparison using consistent evaluation metrics  
 - Visual analysis with confusion matrices and learning curves  
 - Modular architecture for easy experimentation and scaling  
+
+
+---
+
+##  Model Architecture
+```
+LSTM Model
+
+Embedding Layer
+        ↓
+LSTM (64 Units)
+        ↓
+Dropout
+        ↓
+Dense (Sigmoid)
+```
 
 ---
 
@@ -90,13 +128,14 @@ email-spam-detection
 ---
 
 ### 1. Clone this repository
-bash
-
+```bash
 git clone https://github.com/<your-username>/Email_spam_and_phishing.git
 cd Email_spam_and_phishing-main
-`
+```
 ### 2. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 ### 3. Launch Jupyter Notebook
 jupyter notebook
 ### 4. Run notebooks
@@ -128,7 +167,7 @@ Open and execute any .ipynb file (e.g., LSTM, LGBM, NN, or ML models) to train a
 ##  Limitations
 - The model may not perform well on real-world email data as it is trained on specific dataset.
 - The model mainly focuses on textual content and may fail to detect spam in: Images, Attachments, Embedded links.  
-- May genarate False predictions(False Positive, False Negative).  
+- May generate false predictions (false positives and false negatives).  
 - Trained only on English data, the model may struggle with Multilingual emails or Regional slang or mixed languages.
 
 ---
